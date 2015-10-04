@@ -1,0 +1,11 @@
+cd node-js-publishing-a-module-to-the-npm-registry/
+npm adduser
+npm init
+npm publish
+npm version patch
+git init
+git pull https://github.com/seattleacademy/egghead.git
+git commit -m "node-js-publishing-a-module-to-the-npm-registry"
+git remote add origin https://github.com/seattleacademy/egghead.git
+git push --set-upstream origin master
+npm unpublish --force
